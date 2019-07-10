@@ -70,14 +70,14 @@ Building a scanner with OpenCV can be accomplished in just three simple steps:
 
 Step 1: Detect edges.
 
-Step 2: Use the edges in the image to find the contour (outline) representing the piece of paper being scanned.
-
-Step 3: Apply a perspective transform to obtain the top-down view of the document.
-
-Step 1: Detect edges
-
 ![original Image](https://user-images.githubusercontent.com/37553965/60964604-5b2e5980-a331-11e9-9d9a-2ccb2ba856c4.PNG) ![Edge detection](https://user-images.githubusercontent.com/37553965/60964751-c710c200-a331-11e9-9292-fdc249d15e9b.PNG)
 
 
+Step 2: Use the edges in the image to find the contour (outline) representing the piece of paper being scanned.
 
-      Original Image                                                                EDGE DETECTION IMAGE
+![Edge 2](https://user-images.githubusercontent.com/37553965/60965015-5f0eab80-a332-11e9-942a-7a15226b920c.PNG)
+
+Step 3: Apply a perspective transform to obtain the top-down view of the document.
+
+![original Image](https://user-images.githubusercontent.com/37553965/60965091-9b420c00-a332-11e9-8a54-dea75b8ca7e0.PNG) ![Output Image2](https://user-images.githubusercontent.com/37553965/60965096-9ed59300-a332-11e9-8a3c-b3446440026d.PNG)
+
