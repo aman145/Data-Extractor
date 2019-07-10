@@ -78,5 +78,5 @@ Step 2: Use the edges in the image to find the contour (outline) representing th
 ![Edge 2](https://user-images.githubusercontent.com/37553965/60965015-5f0eab80-a332-11e9-942a-7a15226b920c.PNG)
 
 Step 3: Apply a perspective transform to obtain the top-down view of the document.
-[Output Image2](https://user-images.githubusercontent.com/37553965/60965096-9ed59300-a332-11e9-8a3c-b3446440026d.PNG)![original Image](https://user-images.githubusercontent.com/37553965/60965091-9b420c00-a332-11e9-8a54-dea75b8ca7e0.PNG)!
+![Output Image2](https://user-images.githubusercontent.com/37553965/60965096-9ed59300-a332-11e9-8a3c-b3446440026d.PNG)![original Image](https://user-images.githubusercontent.com/37553965/60965091-9b420c00-a332-11e9-8a54-dea75b8ca7e0.PNG)
 
