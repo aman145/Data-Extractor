@@ -76,7 +76,7 @@ Step 3: Apply a perspective transform to obtain the top-down view of the documen
 
 Step 1: Detect edges
 
-![Original Image](/images/original Image.png)
+![Original Image](images/original Image.png)
 
 
 
