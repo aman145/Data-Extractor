@@ -76,7 +76,6 @@ Step 3: Apply a perspective transform to obtain the top-down view of the documen
 
 Step 1: Detect edges
 
-![Output image ](images/original Image.jpg?raw=true "Output Image")
 
 
 
