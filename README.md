@@ -80,4 +80,4 @@ Step 1: Detect edges
 
 
 
-a
+      Original Image                                                                EDGE DETECTION IMAGE
