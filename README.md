@@ -22,7 +22,7 @@ Benifits:
   
   python run.py
   
-  Detailed process of installation of packages in mentioned above
+  Detailed process of installation of packages in mentioned below
 
 # About Project
 
