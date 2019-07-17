@@ -62,9 +62,7 @@ Pytesseract: pip install pytesseract
 
 # Procedure
 
-Phase 1:
-
-Phase 1- Developed Scanner using OpenCv
+# Phase 1- Developed Scanner using OpenCv
 
 Building a scanner with OpenCV can be accomplished in just three simple steps:
 
@@ -80,14 +78,20 @@ Step 2: Use the edges in the image to find the contour (outline) representing th
 Step 3: Apply a perspective transform to obtain the top-down view of the document.
 ![original Image](https://user-images.githubusercontent.com/37553965/60965091-9b420c00-a332-11e9-8a54-dea75b8ca7e0.PNG)![Output Image2](https://user-images.githubusercontent.com/37553965/60965096-9ed59300-a332-11e9-8a3c-b3446440026d.PNG)
 
-Phase 2- Convert scanned image into text file
- Using Tessereact, all the data is extracted from processed image and stored in text file for data mining and analysis.![Screenshot (2)](https://user-images.githubusercontent.com/37553965/61353955-a3e49600-a88e-11e9-9758-f9a4b6968423.png)
+# Phase 2- Convert scanned image into text file
+ 
+ Using Tessereact, all the data is extracted from processed image and stored in text file for data mining and analysis.
+ 
+ ![Screenshot (2)](https://user-images.githubusercontent.com/37553965/61353955-a3e49600-a88e-11e9-9758-f9a4b6968423.png)
 
-Phase 3- Desiging the User Interface for better Intersection and Visualization
+# Phase 3- Desiging the User Interface for better Intersection and Visualization
+
 ![Screenshot (3)](https://user-images.githubusercontent.com/37553965/61354107-063d9680-a88f-11e9-87af-22715668335d.png)
+
 ![Screenshot (4)](https://user-images.githubusercontent.com/37553965/61354132-1a819380-a88f-11e9-9d38-72c40814515e.png)
-![Screenshot (5)](https://user-images.githubusercontent.com/37553965/61354139-1fdede00-a88f-11e9-8c5d-2ca227dd1c1e.png)
+
 ![Screenshot (6)](https://user-images.githubusercontent.com/37553965/61354151-253c2880-a88f-11e9-880b-e2b28340585e.png)
+
 ![Screenshot (7)](https://user-images.githubusercontent.com/37553965/61354165-2bcaa000-a88f-11e9-8d54-e41e9f33497f.png)
 
  
