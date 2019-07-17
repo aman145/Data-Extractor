@@ -94,4 +94,13 @@ Step 3: Apply a perspective transform to obtain the top-down view of the documen
 
 ![Screenshot (7)](https://user-images.githubusercontent.com/37553965/61354165-2bcaa000-a88f-11e9-8d54-e41e9f33497f.png)
 
- 
+# Phase 4 :
+Data analysing and visualization is going on.
+
+
+# Key Points:
+1. Simple User Interface
+2. 95% and above percentage accurancy of data Extraction from Image
+3. User accessiblity in UI is simple 
+4. DataBase is also Implemented
+
