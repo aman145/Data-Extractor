@@ -18,6 +18,12 @@ Benifits:
 
 4: Doctor will also get a simple methodology to examine the reports of perticular patient. 
 
+# How to run 
+  
+  python run.py
+  
+  Detailed process of installation of packages in mentioned above
+
 # About Project
 
  Initial Handlings and Packages
