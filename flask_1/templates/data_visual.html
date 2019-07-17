@@ -1,0 +1,92 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="content-section">
+  <div class="media">
+    <img class="rounded-circle account-img" src="{{image_file}}">
+    <div class="media-body">
+      <h2 class="account-heading">{{current_user.username}}</h2>
+      <p class="text-secondary">{{current_user.email}}</p>
+    </div>
+  </div>
+    <form  action='' method="POST" enctype="multipart/form-data">
+      {{form.hidden_tag()}}
+      <fieldset class="form-group">
+        <legend class="border-bottom  mb-4">Data Visualisation Review</legend>
+        <dir class="form-group">
+          {{form.name.label(class="form-control-label")}}
+
+          {% if form.name.errors %}
+            {{form.name(class="form-control from-control-lg is-invalid")}}
+              <div class="invalid-feedback">
+                {% for error in form.name.errors %}
+                  <span>{{error}}</span>
+                {% endfor %}
+              </div>
+          {% else %}
+            {{ form.name(class="form-control from-control-lg")}}
+          {% endif %}
+        </dir>
+        <dir class="form-group">
+          {{form.age.label(class="form-control-label")}}
+
+          {% if form.age.errors %}
+            {{form.age(class="form-control from-control-lg is-invalid")}}
+              <div class="invalid-feedback">
+                {% for error in form.age.errors %}
+                  <span>{{error}}</span>
+                {% endfor %}
+              </div>
+          {% else %}
+            {{ form.age(class="form-control from-control-lg")}}
+          {% endif %}
+        </dir>
+        <dir class="form-group">
+          {{form.lab_name.label(class="form-control-label")}}
+
+          {% if form.lab_name.errors %}
+            {{form.lab_name(class="form-control from-control-lg is-invalid")}}
+              <div class="invalid-feedback">
+                {% for error in form.lab_name.errors %}
+                  <span>{{error}}</span>
+                {% endfor %}
+              </div>
+          {% else %}
+            {{ form.lab_name(class="form-control from-control-lg")}}
+          {% endif %}
+        </dir>
+        <dir class="form-group">
+          {{form.parameter_name.label(class="form-control-label")}}
+
+          {% if form.parameter_name.errors %}
+            {{form.parameter_name(class="form-control from-control-lg is-invalid")}}
+              <div class="invalid-feedback">
+                {% for error in form.parameter_name.errors %}
+                  <span>{{error}}</span>
+                {% endfor %}
+              </div>
+          {% else %}
+            {{ form.parameter_name(class="form-control from-control-lg")}}
+          {% endif %}
+        </dir>
+        <dir class="form-group">
+          {{form.value_to_change.label(class="form-control-label")}}
+
+          {% if form.value_to_change.errors %}
+            {{form.value_to_change(class="form-control from-control-lg is-invalid")}}
+              <div class="invalid-feedback">
+                {% for error in form.value_to_change.errors %}
+                  <span>{{error}}</span>
+                {% endfor %}
+              </div>
+          {% else %}
+            {{ form.value_to_change(class="form-control from-control-lg")}}
+          {% endif %}
+        </dir>
+      </fieldset>
+      <div class="form-group">
+        {{form.submit(class="btn btn-outline-info")}}
+      </div>
+    </form>
+</div>
+
+{% endblock content %}
